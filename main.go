@@ -1,6 +1,6 @@
 package main
 
-import "design-pattern/create/factory/builder"
+import "design-pattern/struct/adapter"
 
 func main() {
 	//简单工厂
@@ -8,5 +8,6 @@ func main() {
 	//工厂方法模式
 	//method.Test()
 	//abs.Test()
-	builder.Test()
+	//builder.Test()
+	adapter.Test()
 }
