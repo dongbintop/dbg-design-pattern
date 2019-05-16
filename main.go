@@ -1,6 +1,6 @@
 package main
 
-import "design-pattern/struct/bridge"
+import "design-pattern/struct/composite"
 
 func main() {
 	//简单工厂
@@ -10,5 +10,6 @@ func main() {
 	//abs.Test()
 	//builder.Test()
 	//adapter.Test()
-	bridge.Test()
+	//bridge.Test()
+	composite.Test()
 }
