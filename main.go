@@ -1,6 +1,6 @@
 package main
 
-import "design-pattern/struct/composite"
+import "design-pattern/struct/decorator"
 
 func main() {
 	//简单工厂
@@ -11,5 +11,6 @@ func main() {
 	//builder.Test()
 	//adapter.Test()
 	//bridge.Test()
-	composite.Test()
+	//composite.Test()
+	decorator.Test()
 }
